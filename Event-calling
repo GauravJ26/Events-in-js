@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+</head>
+<body>
+<h1>Online HTML Editor</h1>
+<div>This is simple examples of js Events </div>
+</body>
+<script>
+function fn1(){
+    alert("onClick event is called in this button");
+}
+
+function fn2(){
+    alert("you double clicked on button");
+}
+
+function fn3(){
+    alert(" right button click here");
+}
+
+
+function fn4(){
+    alert(" you mouse hover in btn");
+}
+
+function fn5(){
+    alert(" mouse out");
+}
+
+
+</script>
+<button onClick="fn1()">on click button</button><br><br>
+<button ondblClick="fn2()">on double click </button><br><br>
+<button oncontextmenu="fn3()">on right btn click </button><br><br>
+<button onmouseenter="fn4()">mouse hover event </button><br><br>
+<button onmouseout="fn5()">mouse out </button><br><br>
+
+</html>
